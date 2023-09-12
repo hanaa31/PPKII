@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html14/loose.dtd">
+<head>
+    <title>Praktikum HTML FORM</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <h1>TUGAS FORM HTML PRAKTIKUM PKII-DEWI FARHANA MAULIYA</h1>
+    <form action="/action_page.php" method="post" enctype="multipart/form-data">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        
+        <p>Gender:</p>
+        <input type="radio" id="man" name="gender" value="Man">
+        <label for="man">Man</label><br>
+        <input type="radio" id="women" name="gender" value="Women">
+        <label for="women">Women</label><br>
+        
+        <label for="address">Address</label><br>
+        <input type="text" id="address" name="address"><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="indonesia">Indonesia</option>
+            <option value="singapura">Singapura</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="jepang">Jepang</option>
+            <option value="korea selatan">Korea Selatan</option>
+        </select>
+        <br>
+        <label for="myFile">Upload Photo:</label><br>
+        <input type="file" id="myFile" name="filename"><br>
+        
+        <label for="message">Description</label><br>
+        <textarea name="message" rows="10" cols="30"></textarea><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
